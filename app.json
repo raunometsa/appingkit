@@ -1,0 +1,31 @@
+{
+    "expo": {
+        "name": "AppingKit",
+        "description": "This project is really great.",
+        "slug": "appingkit",
+        "privacy": "public",
+        "sdkVersion": "30.0.0",
+        "platforms": ["ios", "android"],
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "bundleIdentifier": "com.raumet.appingkit",
+            "config": {
+                "googleMapsApiKey": ""
+            },
+            "supportsTablet": true
+        }
+    }
+}
